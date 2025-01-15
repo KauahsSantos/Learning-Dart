@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 void main(List<String> args) {
   print("Variáveis em Dart");
 
@@ -39,7 +37,7 @@ void main(List<String> args) {
   print("Variálvem sem valores | String");
 
   var cor;
-  var nmColor = cor ?? "Sem cor";
+  var nmColor = cor ?? "Sem cor"; // Os ( ?? ) servem para direcionr o Dart fazendo a seguinte pergunto -> A variable é null?? Se sim joga essa frese "..." se não deixa o valor atribuido.
 
   print(nmColor);
 }
