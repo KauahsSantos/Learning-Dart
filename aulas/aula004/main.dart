@@ -12,4 +12,6 @@ void main(List<String> args) {
 
   print(user.length);
 
+  print(user.values);
+
 }
