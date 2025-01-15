@@ -13,6 +13,6 @@ void main(List<String> args) {
     print("Very good my friend");
   }else{
     print("Blz ent mn");
-  }  
-
+    
+  } 
 }
