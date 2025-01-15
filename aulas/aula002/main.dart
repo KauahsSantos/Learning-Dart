@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 void main(List<String> args) {
   print("Variáveis em Dart");
 
@@ -17,7 +19,7 @@ void main(List<String> args) {
 
   print("");
 
-  print("TIpo Bool");
+  print("Tipo Bool");
 
   bool b1 = true;
   print(b1);
@@ -32,4 +34,12 @@ void main(List<String> args) {
 
   print("Para palavras, frases ou apenas letras.");
 
+  print("");
+
+  print("Variálvem sem valores | String");
+
+  var cor;
+  var nmColor = cor ?? "Sem cor";
+
+  print(nmColor);
 }
