@@ -27,7 +27,7 @@ void main(List<String> args) {
 
   print("Removendo números da lista");
 
-  numbers.removeAt(8); // Podemos ramovar números da lista através do nameVar.emove.At(parametro); ou o primeiro e o ultimo número da lista usando nameVar.removeLast(); 
+  numbers.removeAt(8); // Podemos ramovar números da lista através do nameVar.removeAt(parametro); ou o primeiro e o ultimo número da lista usando nameVar.removeLast(); 
 
   print(numbers);
 

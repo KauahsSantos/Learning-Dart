@@ -1,7 +1,7 @@
 void main(List<String> args) {
 
   /* 
-      A impressão de variáveis no dart pode ver do seu próprio tipo, INt, double etc, da palavra VAR, ela nos permite colocar qualquer valor dantro dele ou da palavra dynamic que nos permite alterar seu valor ao decorre do código.
+      A impressão de variáveis no dart pode vir do seu próprio tipo, Int, double etc, da palavra VAR, ela nos permite colocar qualquer valor dantro dele ou da palavra dynamic que nos permite alterar seu valor ao decorre do código.
   */
 
   print("Variáveis em Dart");
