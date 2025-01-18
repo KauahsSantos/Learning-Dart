@@ -1,17 +1,11 @@
-import 'dart:io';
+void main(List<String> args) {
+  print("Some de 2 Numbrs");
 
-void main(List<String> args) async {
-  print("What's your name?");
-  String? nm = stdin.readLineSync();
+  print(soma(5, 10));
+  print(soma(9, 27));
+  
+}
 
-  print(nm);
-  print(" é verdade que vc programa em Dart?");
-  String? yn = stdin.readLineSync();
-
-  if (yn == "Sim" || yn == "sim" || yn == "s" || yn == "ss"){
-    print("Esntão é real que vc programe em Dart, a linguage of the Google");
-    print("Very good my friend");
-  }else{
-    print("Blz ent mn");
-  } 
+int soma(int n1, int n2){
+  return n1 + n2;
 }
