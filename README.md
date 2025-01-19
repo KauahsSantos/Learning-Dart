@@ -1,4 +1,6 @@
-# Roadmap de Estudos: Desenvolvimento de Aplicativos com Dart e Flutter  
+# Aprendendo Dart e Flutter
+
+# Desenvolvimento de Aplicativos Mobile e Desktop 
 
 Este roadmap foi criado para ajudar no aprendizado de desenvolvimento de aplicativos utilizando **Dart** e **Flutter**. Cada tópico está organizado com caixas de seleção para que você possa marcar o progresso.
 
