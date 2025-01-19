@@ -100,7 +100,7 @@ Este roadmap foi criado para ajudar no aprendizado de desenvolvimento de aplicat
 ## 🔗🌐 Para Saber Mais:
 
 - [X] Publicações no Linkedin [Acesse: Meu linkedin](https://www.linkedin.com/in/kau%C3%A3-hiago-da-silva-santos-8931522ba/)
-- [X] Lives Todos os Dias [Acesse: Meu canal na Twitch](twitch.tv/Kaua_Hs_Santos)
+- [X] Lives Todos os Dias [Acesse: Meu canal na Twitch](https://www.twitch.tv/Kaua_Hs_Santos)
 
 ## 📚📖 Recursos Recomendados  
 
