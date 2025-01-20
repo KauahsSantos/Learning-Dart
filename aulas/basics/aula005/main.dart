@@ -1,9 +1,25 @@
 void main(List<String> args) {
-  dynamic n1 = 10;
-  dynamic n2 = 20.1;
+  int n1 = 50;
+  int n2 = 20;
   dynamic n3;
 
-  n3 = n1 + n2; // or - | * | / for create the simple mathematical operators
+  n3 = n1 + n2; // or - | * | /  | ~/ (para resto inteiro) for create the simple mathematical operators
 
-  print(n3);
+  print(" A soma de $n1 + $n2  = $n3");
+
+  n3 = n1 - n2;
+
+  print(" A subtração de $n1 - $n2  = $n3");
+
+  n3 = n1 * n2;
+
+  print(" A maltiplicação de $n1 * $n2  = $n3");
+
+  n3 = n1 / n2;
+
+  print(" A divisão de $n1 / $n2  = $n3");
+
+  n3 = n1 ~/ n2;
+
+  print(" A parte inteira da divisão de $n1 ~/ $n2  = $n3");
 } 
