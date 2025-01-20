@@ -1,3 +1,9 @@
 void main(List<String> args) {
-print("Teste");
+  int a = 25; 
+  int b = 10;
+  int c;
+
+  c = a + b;
+
+  print(c);
 }
