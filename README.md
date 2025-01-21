@@ -4,12 +4,12 @@ Este roadmap foi criado para ajudar no aprendizado de desenvolvimento de aplicat
 
 ## 📋 Estrutura do Roadmap  
 
-- [ ] **Introdução ao Dart**  
-  - [ ] O que é Dart?  
-  - [ ] Configuração do ambiente de desenvolvimento  
-  - [ ] Sintaxe básica  
-    - [ ] Variáveis e tipos de dados  
-    - [ ] Operadores  
+- [X] **Introdução ao Dart**  
+  - [X] O que é Dart?  
+  - [X] Configuração do ambiente de desenvolvimento  
+  - [] Sintaxe básica  
+    - [X] Variáveis e tipos de dados  
+    - [X] Operadores  
     - [ ] Controle de fluxo (if/else, loops)  
   - [ ] Funções e métodos  
   - [ ] Classes e objetos  
