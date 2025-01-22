@@ -45,4 +45,11 @@ void main(List<String> args) {
 
   print( isTrue ? "Condição verdadeira" : "Condição Falsa" );
 
+  String users;
+  String userName = "Kauã";
+
+  users = userName == "Kauã" ? "Sim. \nUsuário Cadastrado" : "Não \nUsuário Não Cadastrado";  // Em Dart o if e else podem ser representados por ? e : - if = ? | else = :
+
+  print(users);
+
 }
