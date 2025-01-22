@@ -35,4 +35,14 @@ void main(List<String> args) {
     print("Bom para dormir");
   }
 
+  print("");
+
+  print("If and else in one line");
+
+  print("");
+
+  bool isTrue = true;
+
+  print( isTrue ? "Condição verdadeira" : "Condição Falsa" );
+
 }
