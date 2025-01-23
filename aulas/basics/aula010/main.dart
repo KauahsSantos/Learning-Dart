@@ -15,6 +15,24 @@ void main(List<String> args) {
 
   print("");
 
+  for(int n2 = 100; n2 >= 0; n2-= 50){
+    print(n2);
+  }
+
+  print("");
+
+  print("For em Formato de Tabuada");
+
+  for(int num1 = 1; num1 <= 10; num1++){
+    for(int num2 = 2; num2 <= 2; num2++){
+      int num3 = num1 * num2;
+
+      print("$num1 * $num2 = $num3");
+    }
+  }
+
+  print("");
+
   print("01 PT 02 | For com Listas");
 
   print("");
