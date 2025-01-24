@@ -3,7 +3,8 @@ void main(List<String> args) {
 
     print("");
 
-    dynamic n1 = 1;
+    int n1 = 1;
+    bool isTrue = true;
 
     while(n1 <= 5){
         print("Valor é; $n1");
@@ -12,12 +13,37 @@ void main(List<String> args) {
 
     print("");
 
+    print("Whilw com variável de Controlo");
+
+    print("");
+
+    n1 = 1;
+
+    while(isTrue){
+      print(n1);
+      n1++;
+
+
+      if(n1 > 10){
+        isTrue = false;
+        
+        print("");
+
+        print("Valor da váriável isTrue agorá é: $isTrue");
+        print("O valoe de n1 agora é $n1");
+      }
+    }
+
+    print("");
+
     print("Laço de Repetição | Do While");
 
     print("");
 
-    do {
-        print("valor é $n1");
+    n1 = 5;
+
+    do { // Faça isso
         n1++;
-    }while(n1 <= 10);
+        print("valor é $n1");
+    }while(n1 < 10); // Enquanto isso
 }
