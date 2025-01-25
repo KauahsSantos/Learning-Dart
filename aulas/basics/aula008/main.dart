@@ -43,7 +43,7 @@ void main(List<String> args) {
 
   bool isTrue = true;
 
-  print( isTrue ? "Condição verdadeira" : "Condição Falsa" );
+  print( isTrue ? "Condição verdadeira" : "Condição Falsa");
 
   String users;
   String userName = "Kauã";
