@@ -41,7 +41,7 @@ void main(List<String> args) {
 
   print("Variáveis  de valor Null");
 
-  int? idd; // ara colocarmos uma variável com o valir nulo basta colocarmos o sinal de: ? na frente do seu tipo, ou seja, int? var1; - double? var2;
+  int? idd; // ara colocarmos uma variável com o val0r nulo basta colocarmos o sinal de: ? na frente do seu tipo, ou seja, int? var1; - double? var2;
   print(idd);
 
   print("");
