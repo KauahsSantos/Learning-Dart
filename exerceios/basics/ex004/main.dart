@@ -28,6 +28,8 @@ void main(List<String> args) {
   nUsers = int.parse(stdin.readLineSync()!); // Recebe o dado du usuário e adiciona ele na variável nUsers.
 
   for(i; i <= nUsers; i++){ // Inicialização do for. Faz com que enquanto a variável i for menor ou igual a varialvel nUsers, ela adc um no i (i++), fazendo assim o for rodar até chegar ao valor da nUser
+    print("");
+
     print("Qual Seu nome");
     String? nm =  stdin.readLineSync(); // Recebe o nome do usuário e adiciona ele na verialvem nm
 
@@ -42,5 +44,7 @@ void main(List<String> args) {
 
   md = soma / nUsers; // Pega o resultado da linha 38, ou seja, o resultado da soma de variáveis e divide pelo numero de usuários que foi dado no início do algoritmo, nUsers.
 
-  print(" A média de idade dos alunos da sua sala é: ${md}"); // Printa o resultado da média na tela.
+  print("");
+
+  print("A média de idade dos alunos da sua sala é: ${md}"); // Printa o resultado da média na tela.
 }
