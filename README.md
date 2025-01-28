@@ -7,7 +7,7 @@ Este roadmap foi criado para ajudar no aprendizado de desenvolvimento de aplicat
 - [X] **Introdução ao Dart**  
   - [X] O que é Dart?  
   - [X] Configuração do ambiente de desenvolvimento  
-  - [ ] Sintaxe básica  
+  - [X] Sintaxe básica  
     - [X] Variáveis e tipos de dados  
     - [X] Operadores  
     - [X] Controle de fluxo (if/else, loops)  
