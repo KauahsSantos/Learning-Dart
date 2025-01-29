@@ -41,7 +41,7 @@ void main(List<String> args) {
 
   print("");
 
-  bool isTrue = true;
+  bool isTrue = false;
 
   print( isTrue ? "Condição verdadeira" : "Condição Falsa");
 
