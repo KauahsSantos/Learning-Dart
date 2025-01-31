@@ -9,8 +9,8 @@
 void main(List<String> args) {
   print("Introdução a Condições | if & else ");
 
-  dynamic n1 = 99;
-  dynamic n2 = 100;
+  int n1 = 99;
+  int n2 = 100;
 
   print("");
 

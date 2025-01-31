@@ -12,7 +12,9 @@ void main(List<String> args) {
     print("Hoje é ${dia}. O fim de samanha começa hoje as 00:00");
   }else if(dia  == "Segunda"){
     print("Hoje é ${dia}. Boa sorte no trabaho hoje, vc é quase um escra....");
-  }else{
+  }else if(dia == "Terça" || dia == "Quarta" || dia == "Quinta"){
     print("Você sabe que ${dia} não é um dia bom, mas \nque sua semana tenha começado bom e termina boa também");
+  }else{
+    print("Erro 404.... \nVocê não digitou um dia da semana");
   }
 }
