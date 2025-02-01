@@ -1,4 +1,4 @@
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa# Estudos: Desenvolvimento com Dart e Flutter  
+# Estudos: Desenvolvimento com Dart e Flutter  
 
 Este roadmap foi criado para ajudar no aprendizado de desenvolvimento de aplicativos utilizando **Dart** e **Flutter**. Cada tópico está organizado com caixas de seleção para que você possa marcar o progresso.
 
