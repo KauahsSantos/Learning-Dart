@@ -23,7 +23,7 @@ void main(List<String> args) {
       print("");
 
       print("Digite seu nome");
-      nm = stdin.readLineSync();b
+      nm = stdin.readLineSync();  
 
       print("");
 
