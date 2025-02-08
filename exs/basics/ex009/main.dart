@@ -23,7 +23,7 @@ void main(List<String> args) {
       print("");
 
       print("Digite seu nome");
-      nm = stdin.readLineSync();
+      nm = stdin.readLineSync();b
 
       print("");
 
@@ -38,7 +38,7 @@ void main(List<String> args) {
         print("");
 
         for (var nm in users) {
-          print("Nome: $nm");
+          print("Nome:  ${nm}");
         }
       }else if(sN == "N" || sN == "n"){
         print("OK");

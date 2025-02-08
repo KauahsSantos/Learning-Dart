@@ -10,7 +10,7 @@ void main(List<String> args) {
     'name': nm,
     'idade': 17,
     'altura': 1.87,
-    'Estuda Dart?': true
+    'Estuda Dart?': false
   };
 
   print(user); // Para deixar a lista mais sucinta usar .keys
