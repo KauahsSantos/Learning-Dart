@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
         // reload" button in a Flutter-supported IDE, or press "r" if you used
         // the command line to start the app).
         //
+        //
         // Notice that the counter didn't reset back to zero; the application
         // state is not lost during the reload. To reset the state, use hot
         // restart instead.
