@@ -17,5 +17,4 @@ void main(List<String> args) {
     default:
       print("Cara, não tem nenhum status");
   }
-
 }
