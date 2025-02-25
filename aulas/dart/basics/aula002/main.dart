@@ -43,7 +43,7 @@ void main(List<String> args) {
 
   int? idd;
   idd = 55; // Para colocarmos uma variável com o val0r nulo basta colocarmos o sinal de: ? na frente do seu tipo, ou seja, int? var1; - double? var2;
-  print(idd!); // COm ! afirmamos que a variávvel neste momento não é mais nula
+  print(idd); // COm ! afirmamos que a variávvel neste momento não é mais nula
 
   late int idd2; // Permite que usemos tipos nulos mas quando mudarmos o valor da varialvel não podemos voltar para null. - late int n1; int n2 = 1 agora não posso voltar mais para nulo
   idd2 = 10;
