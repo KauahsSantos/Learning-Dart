@@ -3,15 +3,7 @@ import 'dart:io';
 void main(List<String> args) {
   int n1;
 
-  print("Conversor de Moedas | Novo");
-
-  print("Qual moeda você quer escolher?");
-  print("------------------------------");
-  print("|     Dolar    |    1        |");
-  print("|     Euro     |    2        |");
-  print("|     Yane     |    3        |");
-  print("|Adicione Moeda|    0        |");
-  print("------------------------------");
+  Menu();
   n1 = int.parse(stdin.readLineSync()!);
 
   if (n1 == 1) {
@@ -23,6 +15,18 @@ void main(List<String> args) {
   } else if (n1 == 0) {
     AdcMoeda();
   }
+}
+
+Menu() {
+  print("Conversor de Moedas | Novo");
+
+  print("Qual moeda você quer escolher?");
+  print("-" * 30);
+  print("|     Dolar    |    1        |");
+  print("|     Euro     |    2        |");
+  print("|     Yane     |    3        |");
+  print("|Adicione Moeda|    0        |");
+  print("-" * 30);
 }
 
 AdcMoeda() {
