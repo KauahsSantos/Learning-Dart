@@ -4,7 +4,7 @@ void main(List<String> args) {
   print("Qual é o Dia da samana?");
   String? dia = stdin.readLineSync(); // standart input - Iniciar input do user e lera a linha - read line
 
-  if(dia == "Sbado"){
+  if(dia == "Sabado"){
     print("Bom ${dia}. \nSeu final de samana está só começando");
   }else if(dia == "Domingo"){
     print("Hoje é ${dia}. O fim de semana ta acabando \nAmanhã tu já trabalha, vc é CLThanos");

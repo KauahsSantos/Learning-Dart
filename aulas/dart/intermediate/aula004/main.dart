@@ -3,11 +3,11 @@ void main(List<String> args) {
 }
 
 Profile({
-  required String? nome,  
+  required String? nome,  // Varíavel pode ser nula, porém, será passado um valor a ela obrigatoriamente. Sendo ele -> nome ?? "Nome Não Informado" 
   required String? sexo, 
   required int id, 
   String? isDev, 
-  int? idd 
+  int? idd
   // required -> Para variáveis/informaçẽos obrigatórias.
 }) { 
   print("Informações da conta");
@@ -41,12 +41,11 @@ Profile({
   String sUser = isDev ?? "Não Informado";
   print("Você é um dev? ${sUser}.");
 
-
-
   // ?? -> Nome do operador [Nullare] -> que é usado para simplificação de controle de fluxo com variáveis null e noNullskt
+
   // -> Faz a mesma coisa que os códigos das linhas 12, 18 e 24.
   // if (nome != null) {
-  //   print("Seja bem vindo ${nome }");
+  //   print("Seja bem vindo ${nome}");
   // }
   // if (isDev != null) {
   //   print("Você é um dev, que legal");
