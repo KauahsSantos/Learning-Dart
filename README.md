@@ -95,7 +95,7 @@ Este roadmap foi criado para ajudar no aprendizado de desenvolvimento de aplicat
   - [ ] App de Chat com Firebase  
   - [ ] App de E-commerce  
 
-## PAra Saber Mais
+## Para Saber Mais
 
 - [X] Acessse o [Linkedin](https://www.linkedin.com/in/kau%C3%A3-santos-8931522ba/)
 - [X] Acesse a [Twitch](https://www.twitch.tv/Kaua_Hs_Santos)
