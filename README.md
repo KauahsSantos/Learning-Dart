@@ -12,8 +12,8 @@ Este roadmap foi criado para ajudar no aprendizado de desenvolvimento de aplicat
     - [X] Operadores  
     - [X] Controle de fluxo (if/else, loops)  
   - [X] Funções e métodos  
-  - [ ] Classes e objetos  
   - [ ] Manipulação de listas, mapas e coleções  
+  - [ ] Classes e objetos  
   - [ ] Trabalhando com pacotes do Dart  
 
 - [ ] **Introdução ao Flutter**  
