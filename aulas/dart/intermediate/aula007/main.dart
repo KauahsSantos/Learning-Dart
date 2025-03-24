@@ -16,5 +16,5 @@ void main(List<String> args) {
   print(nms.length);// Para informar a quantidde de itens que existem na lista, neste caso são apenas 2
   print(nms.first);// Para informar o primeiro dado da lista
   print(nms.last);// Para informar o ultimo dado da lista
-  print(nms[3]);//Para pegar os dados de qualquer posição, uma observação é que ele começa na P0
+  print(nms[3]);//Para pegar os dados de qualquer posição, uma observação é que ele começa na P
 } 
