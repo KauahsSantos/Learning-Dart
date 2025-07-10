@@ -14,6 +14,4 @@ void main(List<String> args) {
   const PI = 3.14159;
   print('Nome: $nome, Idade: $idade, Altura: $altura, Estudante: $estudante');
   print('Linguagem: $linguagem, Curso: $curso, PI: $PI');
-
 }
- 
