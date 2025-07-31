@@ -10,7 +10,7 @@ Este roadmap foi criado para ajudar no aprendizado de desenvolvimento de aplicat
   - [X] Sintaxe básica  
     - [X] Variáveis e tipos de dados  
     - [X] Operadores  
-    - [] Controle de fluxo (if/else, loops)  
+    - [ ] Controle de fluxo (if/else, loops)  
   - [ ] Funções e métodos  
   - [ ] Manipulação de listas, mapas e coleções  
   - [ ] Classes e objetos  
