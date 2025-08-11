@@ -20,6 +20,10 @@ class HomePage extends StatelessWidget {
     print("Saiu");
   }
 
+  void increment() {
+    print("Entrou");
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,6 +40,7 @@ class HomePage extends StatelessWidget {
               letterSpacing: 3,
             ),
           ),
+
           Text(
             "0",
             style: TextStyle(
@@ -46,27 +51,53 @@ class HomePage extends StatelessWidget {
               backgroundColor: Color(0xFF011145),
             ),
           ),
+
           Row(
             // Alinhamento do Eixo Secundário -> X, ou seja horizontal, nesse caso o eixo secundário do respectivo widget -> Row = Linha
-            children: [
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [ 
               TextButton(
                 onPressed: decrement,
+                style: TextButton.styleFrom(
+                  backgroundColor: Colors.blue,
+                  fixedSize: Size(150, 150),
+                  shape: RoundedRectangleBorder(
+                    side: BorderSide(
+                      color: Colors.black, width: 2.5,
+                    ),
+                    borderRadius: BorderRadiusGeometry.circular(10),
+                  ),
+                  // padding: const EdgeInsets.all(30),
+                ),
                 child: Text(
                   "Saiu",
                   style: TextStyle(
-                    color: Colors.blue,
+                    color: const Color(0xFF5D00FF),
                     fontSize: 20,
                     fontWeight: FontWeight.w400,
                     letterSpacing: 2,
                   ),
+                  
                 ),
               ),
+
               TextButton(
-                onPressed: decrement,
+                onPressed: increment,
+                style: TextButton.styleFrom(
+                  backgroundColor: Colors.blue,
+                  fixedSize: Size(150, 150),
+                  shape: RoundedRectangleBorder(
+                    side: BorderSide(
+                      color: Colors.black, width: 2.5,
+                    ),
+                    borderRadius: BorderRadiusGeometry.circular(10)
+                  ),
+                  // padding: EdgeInsets.all(30),
+                ),
                 child: Text(
                   "Entrou",
                   style: TextStyle(
-                    color: Colors.blue,
+                    color: const Color(0xFF5D00FF),
                     fontSize: 20,
                     fontWeight: FontWeight.w400,
                     letterSpacing: 2,
@@ -78,5 +109,8 @@ class HomePage extends StatelessWidget {
         ],
       ),
     );
-  }
+  } 
+   
+    
+
 }
