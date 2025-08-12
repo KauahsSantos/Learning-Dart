@@ -34,24 +34,27 @@ class HomePage extends StatelessWidget {
           Text(
             "Entrar",
             style: TextStyle(
-              color: Colors.blue,
+              color: const Color(0xFF00CCFF),
               fontWeight: FontWeight.w800,
               fontSize: 30,
               letterSpacing: 3,
             ),
           ),
 
-          Text(
-            "0",
-            style: TextStyle(
-              color: Colors.red,
-              fontWeight: FontWeight.w800,
-              fontSize: 100,
-              letterSpacing: 4,
-              backgroundColor: Color(0xFF011145),
-            ),
+          const Padding(
+            padding: EdgeInsets.all(40),
+            child: Text(
+              "0",
+              style: TextStyle(
+                fontSize: 100,
+                color: Color(0xFF00CCFF),
+                fontWeight: FontWeight.w800,
+              ),
+            ), 
           ),
-
+          // SizedBox(
+          //   width: 5,
+          // ),
           Row(
             // Alinhamento do Eixo Secundário -> X, ou seja horizontal, nesse caso o eixo secundário do respectivo widget -> Row = Linha
             mainAxisAlignment: MainAxisAlignment.center,
@@ -59,45 +62,48 @@ class HomePage extends StatelessWidget {
               TextButton(
                 onPressed: decrement,
                 style: TextButton.styleFrom(
-                  backgroundColor: Colors.blue,
-                  fixedSize: Size(150, 150),
+                  backgroundColor: const Color(0xFF00CCFF),
+                  fixedSize: Size(125, 125),
                   shape: RoundedRectangleBorder(
                     side: BorderSide(
                       color: Colors.black, width: 2.5,
                     ),
-                    borderRadius: BorderRadiusGeometry.circular(10),
+                    borderRadius: BorderRadiusGeometry.circular(15),
                   ),
                   // padding: const EdgeInsets.all(30),
                 ),
                 child: Text(
                   "Saiu",
                   style: TextStyle(
-                    color: const Color(0xFF5D00FF),
+                    color: const Color(0xFFFFFFFF),
                     fontSize: 20,
                     fontWeight: FontWeight.w400,
                     letterSpacing: 2,
                   ),
-                  
                 ),
               ),
 
+              SizedBox(
+                width: 30,
+              ),
+              
               TextButton(
                 onPressed: increment,
                 style: TextButton.styleFrom(
-                  backgroundColor: Colors.blue,
-                  fixedSize: Size(150, 150),
+                  backgroundColor: const Color(0xFF00CCFF),
+                  fixedSize: Size(125, 125),
                   shape: RoundedRectangleBorder(
                     side: BorderSide(
                       color: Colors.black, width: 2.5,
                     ),
-                    borderRadius: BorderRadiusGeometry.circular(10)
+                    borderRadius: BorderRadiusGeometry.circular(15)
                   ),
                   // padding: EdgeInsets.all(30),
                 ),
                 child: Text(
                   "Entrou",
                   style: TextStyle(
-                    color: const Color(0xFF5D00FF),
+                    color: const Color(0xFFFFFFFF),
                     fontSize: 20,
                     fontWeight: FontWeight.w400,
                     letterSpacing: 2,
@@ -110,7 +116,4 @@ class HomePage extends StatelessWidget {
       ),
     );
   } 
-   
-    
-
 }

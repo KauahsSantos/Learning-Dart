@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  print("Aula 04 - Controle de Fluxo");
+  print("Aula 04 - Controle de Fluxo e Opperadores Ternários");
 
   int idd = 88;
 
@@ -21,4 +21,11 @@ void main(List<String> args) {
     case >= 18:
       print("Você é maior de idade");
   }
+
+  print("Operadores Tenários");
+
+  double nota = 10;
+  String msg = nota >= 7 ? "Aprovado" : "Reprovado";
+
+  print(msg);
 }
