@@ -18,3 +18,4 @@ Para declararmos uma variável em dart temos que manter um padrão, sendo esse, 
 `tipo nome = valor `
 
 ## INT → Para números Inteiros
+
