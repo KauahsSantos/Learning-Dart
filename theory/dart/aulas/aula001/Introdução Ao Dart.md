@@ -16,5 +16,18 @@ Para declararmos uma variável em dart temos que manter um padrão, sendo esse, 
 
 `tipo nome = valor `
 
-## INT → Para números Inteiros
+## → Tipos Numéricos
+
+Em dart temos algumas variáveis de tipos numéricos, sendo essas:
+
+- Int - Para números inteiros
+	- 1, 5, 100, 50,…..
+- double - Para números fracionados ou quebrados
+	- 1.3, 5.54, 5.023,….
+- num - É considerado genérico aceitando os dois tipos `int ou doube`
+
+### → Int | Números inteiros
+
+Esse é a variável int que só aceita números inteiros, ou seja, os que não são quebrados e que possuem casas decimais. 
+
 
