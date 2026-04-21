@@ -26,7 +26,7 @@ Este roadmap foi criado para ajudar no aprendizado de desenvolvimento de aplicat
   - [ ] Estrutura básica de um projeto Flutter  
   - [ ] Comando `flutter doctor` e troubleshooting  
 
-- [ ] **Widgets no Flutter**  
+- [ ] **Widgets no Flutter** 
   - [ ] O que são widgets?  
   - [ ] Widgets Stateless vs Stateful  
   - [ ] Widgets mais utilizados  

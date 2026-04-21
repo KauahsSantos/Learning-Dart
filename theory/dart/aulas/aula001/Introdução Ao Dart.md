@@ -30,4 +30,14 @@ Em dart temos algumas variáveis de tipos numéricos, sendo essas:
 
 Esse é a variável int que só aceita números inteiros, ou seja, os que não são quebrados e que possuem casas decimais. 
 
+```dart
+main(
+	print("Variáveis em Dart");
+	
+	int n1 = 10;
+	
+	print(n1);
+)
+```
+
 
