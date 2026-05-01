@@ -29,4 +29,10 @@ void main(List<String> args) {
   int nu1 = 10;
 
   print("Ex: Int num = $nu1");
+
+  print("");
+
+  print("Booleano -> Números Quebrados\n");
+
+  print("");
 }

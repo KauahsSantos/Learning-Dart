@@ -1,4 +1,4 @@
-****
+.****
 #  → Variáveis em Dart
 
 No Flutter, as variáveis são usadas para armazenar valores. Existem três tipos de variáveis no Flutter sendo essas → **_locais, globais e de instância_**. As variáveis no flutter podem armazenar dados de diferentes tipos de instâncias, como números _strings, booleanos_ e muito mais.
