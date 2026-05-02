@@ -28,7 +28,7 @@ Em dart temos algumas variáveis de tipos numéricos, sendo essas:
 
 ### → Int | Números inteiros
 
-Esse é a variável int que só aceita números inteiros, ou seja, os que não são quebrados e que possuem casas decimais. 
+Esse é a variável int que só aceita números inteiros, ou seja, os que não são quebrados e que não possuem casas decimais. 
 
 ```dart
 main(
@@ -40,4 +40,17 @@ main(
 )
 ```
 
+### -> Double | Números quebrados
 
+Esse é o tipo de váriavel que aceita apenas números decimais/quebrados, ou seja, 10.0, 12.1, 1.23 etc.
+
+
+```dart
+main(
+	print("Variáveis em Dart");
+	
+	double n2 = 20.1;
+	
+	print(n2);
+)
+```
