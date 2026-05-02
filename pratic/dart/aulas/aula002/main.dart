@@ -21,7 +21,9 @@ void main(List<String> args) {
 
   print("\n-----------------\n");
 
-  print("Int -> Números Inteiros \n");
+  print("Variáveis tipo numéricas\n");
+
+  print("1.0 | Int -> Números Inteiros \n");
   print(
     "Essa variável só aceita números inteiros, ou seja, números que não são quebrados",
   );
@@ -30,18 +32,33 @@ void main(List<String> args) {
 
   print("Ex: int num = $nu1");
 
-  print("\n-----------------\n");
+  print("");
 
-  print("Double -> Números Quebrados\n");
+  print("2.0 | Double -> Números Quebrados\n");
   print("Essa vériável só aceita números quebrados");
 
   double nu2 = 20.1;
 
   print("Ex: double num2 = $nu2");
 
+  print("");
+
+  print("3.0 | Num -> Tipo genério\n");
+  print(
+    "Esse é um tipo defirente de variável, nele podemos colocar tanto int como double",
+  );
+
+  num gnc = 10;
+
+  print("Ex: num gnc = $gnc");
+  gnc = 32.5;
+  print("Agr gnc é: $gnc");
+
   print("\n-----------------\n");
 
-  print("String -> Nome, Frases etc \n");
+  print("Variáveis tipo caracter\n");
+
+  print("1.0 | String -> Nome, Frases etc \n");
   print(
     "Essa é a variável que nos permite escrever, ou seja, podemos colocar nomes dentro dela, frases ou somentr caracteres",
   );
