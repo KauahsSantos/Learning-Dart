@@ -69,7 +69,7 @@ void main(List<String> args) {
 
   print("\n-----------------\n");
 
-  print("Boolena -> True and False \n ");
+  print("2.0 | Boolena -> True and False \n ");
   print(
     "Esse é um tipo de variável bem diferente, seu resoltado já vem definido por padão, sendo eles vardadeiro ou false",
   );
@@ -77,4 +77,11 @@ void main(List<String> args) {
   bool var1 = false;
 
   print("Ex: Meu nome é Pedro? $var1, seu nome é $name");
+
+  print("\n-----------------\n");
+
+  print("Variável em Listas\n");
+
+  print("List<> -> Para listas de [n] coisas");
+  
 }
