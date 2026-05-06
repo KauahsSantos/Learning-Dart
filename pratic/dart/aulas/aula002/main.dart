@@ -52,7 +52,7 @@ void main(List<String> args) {
 
   print("Ex: num gnc = $gnc");
   gnc = 32.5;
-  print("Agr gnc é: $gnc");
+  print("gnc = $gnc \ngnc é: $gnc");
 
   print("\n-----------------\n");
 
@@ -65,7 +65,7 @@ void main(List<String> args) {
 
   String name = "Kauã";
 
-  print("Ex: Olá meu nome é $name");
+  print("Ex: String name = $name\nOlá meu nome é $name");
 
   print("");
 
@@ -88,8 +88,10 @@ void main(List<String> args) {
   );
 
   print(
-    "Para declaresmos uma variável do tipo list faremos: ```List<tipo_da_lista> nome_da_lista = [valor]",
+      "Para declaresmos uma variável do tipo list faremos: \nList<tipo_da_lista> nome_da_lista = [valor]\n",
   );
 
   List<String> lista_de_nomes = ["Kauã", "Pedro", "João"];
+
+  print("Ex: Essa é uma lista de nomes | $lista_de_nomes");
 }
