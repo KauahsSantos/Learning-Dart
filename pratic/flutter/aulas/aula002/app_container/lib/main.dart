@@ -4,7 +4,7 @@ void main(List<String> args) {
   runApp(MaterialApp(
     title: "Projeto Container",
     home: Container(    
-        color: Colors.amber,
+        color: const Color.fromARGB(255, 7, 106, 255),
     ),
   ));
 }
