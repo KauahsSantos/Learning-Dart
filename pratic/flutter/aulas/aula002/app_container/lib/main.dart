@@ -5,6 +5,13 @@ void main(List<String> args) {
     title: "Projeto Container",
     home: Container(    
         color: const Color.fromARGB(255, 7, 106, 255),
-    ),
-  ));
+
+        child: Column(
+          children: [
+            Text("Flutter"),
+            Text("Olá Mundo")
+          ],
+        ),
+      ),
+    ));
 }
