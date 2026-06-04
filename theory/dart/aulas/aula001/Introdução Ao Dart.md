@@ -67,4 +67,44 @@ main(
 
 ## → Tipos de Texto
 
-Em dart tempos 
+Em dart temos variáveis que armazenam texto, sendo simples ou complexos, as mais usadas são  `String` para textos que nós mesmos decidimos e `booleano` para textos que o dart da como padrão, sendo _true / false_ 
+
+### String | Para textos completos
+
+Essa é a variável que nos permite adicionar textos ao sistema, sendo frases completas, letras ou apenas só palavras.
+
+```dart
+main(
+	String nome = "Kauã";
+	String cidade = "São Paulo";
+	String letra = "a";
+	
+	print(nome);
+	print(cidade);
+	print(letrar);
+)
+```
+
+#### Interpolação
+
+A interpolação é a junção de variáveis com textos ou variáveis com variáveis
+
+```dart
+main(
+	print("meu nome é $nome moro em $cidade e gosto da letra $letra");
+)
+```
+
+#### Métodos da String
+
+Os métodos são feitos para alterar a variável inicial e com isso temos um resultado diferente na variável final, ou seja, pedirmos determinado método nós teremos um resultado totalmente diferente de uma string, como o método `.length` que faz a contagem de quantos caracteres temos na quela frase, assim deixando ela “como uma int”.
+
+-  .length
+	- Faz a contagem de caracteres dentro da variável = `nome.length`
+- .toUpperCase
+	- Deixa a String com todos os caracteres em letras maiúsculas = `nome.toUpperCase`
+- .toLowerCase
+	- Deixa a String com todos os caracteres em letras minúsculas = `nome.toLowerCase`
+
+
+
