@@ -44,7 +44,6 @@ main(
 
 Esse é o tipo de váriavel que aceita apenas números decimais/quebrados, ou seja, 10.0, 12.1, 1.23 etc.
 
-
 ```dart
 main(
 	print("Variáveis em Dart");
