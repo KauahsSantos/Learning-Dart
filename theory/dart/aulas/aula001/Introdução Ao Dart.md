@@ -40,7 +40,7 @@ main(
 )
 ```
 
-### -> Double | Números quebrados
+### →  Double | Números quebrados
 
 Esse é o tipo de váriavel que aceita apenas números decimais/quebrados, ou seja, 10.0, 12.1, 1.23 etc.
 
@@ -53,3 +53,18 @@ main(
 	print(n2);
 )
 ```
+
+### → Num | Números Genéricos 
+
+Ele pode ser usado quando o valor da variável for variar, ou seja, uma hora ele é um tipo inteiro depois altera para número quebrado.
+
+```dart
+main(
+	num numero = 10;
+	numero = 10.5;
+)
+```
+
+## → Tipos de Texto
+
+Em dart tempos 
