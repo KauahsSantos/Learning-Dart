@@ -1,21 +1,30 @@
 void main(List<String> args) {
-  print("Variável | Listas e Maps\n");
+  print("Listas e Maps");
 
-  print("1.0 | List<> -> Para listas de [n] coisas\n");
-  print(
-    "Essa variável nos permite criar uma lista de diversas coisas, podendo ser números, nomes etc.",
-  );
+  //Lista Simples
 
-  print(
-    "Para declaresmos uma variável do tipo list faremos: \nList<tipo_da_lista> nome_da_lista = [valor] | List<String> nomes = [value] \n",
-  );
+  var nomes = ["Kauã", "Eduarda", "Laura", "vânia"];
 
-  List<String> lista_de_nomes = ["Kauã", "Eduarda", "Laura", "Vânia"];
+  print("\nLista Simples -> $nomes");
 
-  print("Ex: Essa é uma lista de nomes | $lista_de_nomes");
+  List<int> nms = [10, 20, 30];
 
-  List<int> number = [10, 20, 30];
+  print("\nLista do tipo int -> $nms");
 
-  print("Números $number");
-  
+  List<double> nmsq = [1.20, 10.09, 203.2347];
+
+  print("\nLista do timpo Double -> $nmsq\n");
+
+  print("Aceessando os Elementos da Lista\n");
+
+  print(nms[0]);
+  print(nms[2]);
+
+  print("");
+
+  print("Alterando valores da lista");
+
+  nms[2] = 250;
+
+  print(nms);
 }

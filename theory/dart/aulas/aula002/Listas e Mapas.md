@@ -62,3 +62,25 @@ list<int> numeros = [
 ];
 ```
 
+## Acessando e Alterando os valores das Listas
+
+Para acessarmos os valores de uma respectiva lista e mostras para o usuário ou ao sistema devemos chamar o nome da lista e entre `[]` colocarmos o valor do índice desejado.
+
+```dart
+print(nummeros[0]);
+
+print(nummeros[2]);
+```
+
+
+Já para mudarmos o valor dessa mesma lista basta  darmos o nome dela, seu respectivo valor e igualar ao valor que desejamos, assim fazendo com que esse índice tenha um novo valor.
+
+```dart
+numeros[1] = 250
+
+print(numeros[1]);
+```
+
+## Adicionando e Removendo valores das Listas
+
+Em dart temos métodos para adicionar e remover índices de uma lista [Continuar dps]
