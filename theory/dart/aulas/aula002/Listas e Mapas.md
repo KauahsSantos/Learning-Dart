@@ -83,4 +83,94 @@ print(numeros[1]);
 
 ## Adicionando e Removendo valores das Listas
 
-Em dart temos métodos para adicionar e remover índices de uma lista [Continuar dps]
+Em dart temos métodos para adicionar e remover índices de uma lista sendo eles:
+
+- .add()
+
+	Nos permite adicionar elementos ao final da lista
+
+```dart
+main(
+	var frutas = [
+	  'Maçã',
+	  'Banana'
+	];
+	
+	frutas.add('Laranja');
+	
+	print(frutas);
+)
+```
+
+- .addAll()
+
+	Nos permite adicionar vários elementos de uma só vez.
+
+```dart
+frutas.addAll([
+	"Abacate",
+	"Pera",
+	"Uva"
+]);
+
+print(frutas);
+```
+
+- .remove()
+
+	Nos permite remover itens da nossa lista utilizando o nome da lista.
+
+```dart
+frutas.remove("banana");
+
+print(frutas);
+```
+
+- .removeAt()
+
+	Remove os itens de uma lista utilizando o índice do mesmo.
+
+```dart
+main(
+	List<String> cores = [
+		"Azul", 
+		"Verde", 
+		"Amarelo",
+		"Rosa", 
+		"Preto", 
+		"Cinza"
+	];
+	
+	print(cores);
+	
+	cores.removeAt(3);
+	
+	print(cores);
+)
+```
+
+- .clear()
+
+	Limpa toda a Lista
+
+
+```dart
+cores.clear;
+
+print(cores);
+```
+
+### Observação
+
+	Lista do tipo dynamic
+
+```dart
+ List<dynamic> dados = [
+  'Kauã',
+  18,
+  true,
+  1.80
+];
+```
+
+
