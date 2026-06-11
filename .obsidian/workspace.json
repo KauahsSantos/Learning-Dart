@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "theory/dart/aulas/aula002/Operadores Aritmédicos.md",
+                "file": "theory/dart/aulas/aula002/Operadores Aritméticos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Operadores Aritmédicos"
+              "title": "Operadores Aritméticos"
             }
           },
           {
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "85c411efd8dd0e43",
@@ -222,7 +223,7 @@
     "pratic/dart/aulas/aula003/main.dart",
     "pratic/dart/aulas/aula003",
     "theory/dart/aulas/Listas e Mapas.md",
-    "theory/dart/aulas/aula002/Operadores Aritmédicos.md",
+    "theory/dart/aulas/aula002/Operadores Aritméticos.md",
     "theory/dart/aulas/aula001/Introdução Ao Dart.md",
     "pratic/dart/aulas/aula015/main.dart",
     "pratic/dart/aulas/aula015",
