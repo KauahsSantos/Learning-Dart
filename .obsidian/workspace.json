@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "85c411efd8dd0e43",
@@ -214,10 +213,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "67f4164b32df4a29",
+  "active": "5a15c4de3680dbd1",
   "lastOpenFiles": [
-    "theory/dart/aulas/aula002/Operadores Aritmédicos.md",
+    "pratic/dart/exs/ex002/main.dart",
+    "pratic/dart/exs/ex002",
+    "pratic/dart/exs/ex001/main.dart",
+    "pratic/dart/exs/ex001",
+    "pratic/dart/aulas/aula003/main.dart",
+    "pratic/dart/aulas/aula003",
     "theory/dart/aulas/Listas e Mapas.md",
+    "theory/dart/aulas/aula002/Operadores Aritmédicos.md",
     "theory/dart/aulas/aula001/Introdução Ao Dart.md",
     "pratic/dart/aulas/aula015/main.dart",
     "pratic/dart/aulas/aula015",
