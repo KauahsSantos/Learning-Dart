@@ -13,7 +13,15 @@ void main(List<String> args) {
 
   print("A soma de $a1 + $b1 = $c1");
 
-  print("");
+  print("\nExemplo Financeiro");
+
+  double salario = 2100.0;
+  double rendaExtra = 1100.0;
+  double rendaTotal = salario + rendaExtra;
+
+  print(
+    "O meu salário é de: $salario e minha randa extra é de: $rendaExtra, no fim do meu eu tenho: $salario + $rendaExtra = $rendaTotal\n",
+  );
 
   print("Operação Subtração");
 
@@ -25,6 +33,16 @@ void main(List<String> args) {
 
   print("A subtração de $a2 - $b2 = $c2");
 
+  print("\nExemplo Financeiro");
+
+  int estoque = 100;
+  int vendas = 64;
+  int estoqueRestante = estoque - vendas;
+
+  print(
+    "Eu teinha $estoque produtos no meu estoque, foram vendidos $vendas produtos e o restante do estoque é de: $estoqueRestante produtos \n",
+  );
+
   print("");
 
   print("Operação Multiplicação");
@@ -35,5 +53,18 @@ void main(List<String> args) {
   b3 = 10;
   c3 = a3 * b3;
 
-  
+  print("A multiplicação de $a3 * $b3 = $c3");
+
+  print("");
+
+  print("Operação Divisão");
+
+  int a4, b4;
+  double c4;
+
+  a4 = 10;
+  b4 = 2;
+  c4 = a4 / b4;
+
+  print("A divisão de $a4 / $b4 = $c4");
 }

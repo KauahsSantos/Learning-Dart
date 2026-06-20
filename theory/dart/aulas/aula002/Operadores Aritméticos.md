@@ -21,7 +21,7 @@ Nos permite fazer a soma entre dois  ou/e mais valores
 valor1 + valor2
 ```
 
-## Exemplo:
+### Exemplo:
 
 ```dart
 main(
@@ -36,3 +36,81 @@ main(
 
 ## Operação subtração
 
+Nos permite fazer a subtração entre dois  ou/e mais valores 
+
+```dart
+valor1 - valor2
+```
+
+### Exemplo:
+
+```dart
+main(
+	int a = 10;
+	int b = 10;
+	
+	int c = a - b
+	
+	print("A subtração de $a - $b = $c");
+)
+```
+
+## Operação Multiplicação
+
+Nos permite fazer a multiplicações entre dois  ou/e mais valores 
+
+```dart
+valor1 * valor2
+```
+
+### Exemplo:
+
+```dart
+main(
+	int a = 10;
+	int b = 10;
+	
+	int c = a * b
+	
+	print("A subtração de $a * $b = $c");
+)
+```
+
+## Operação Divisão
+
+Nos permite fazer a divisão entre dois  ou/e mais valores 
+
+```dart
+valor1 / valor2
+```
+
+**Observação:** Em dart operador `/` sempre retorna uma double mesmo que a divisão seja exata
+
+### Exemplo:
+
+```dart
+main(
+	int a = 10;
+	int b = 2;
+	
+	int c = a / b
+	
+	print("A subtração de $a * $b = $c");
+)
+```
+
+### Divisão Inteira
+
+Nos permite ter acesso apenas a parte inteira da divisão, para isto utilizamos o operador: `~/` 
+
+### Exemplo: 
+
+```dart
+main(
+	int a = 11;
+	int b = 2;
+	int c = a ~/ b;
+	
+	print("O resto da divisão é $c");
+)
+```
