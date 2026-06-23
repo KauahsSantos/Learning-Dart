@@ -86,7 +86,7 @@ valor1 / valor2
 
 **Observação:** Em dart operador `/` sempre retorna uma double mesmo que a divisão seja exata
 
-### Exemplo:
+#### Exemplo:
 
 ```dart
 main(
@@ -102,7 +102,7 @@ main(
 ### Divisão Inteira
 
 Nos permite ter acesso apenas a parte inteira da divisão, para isto utilizamos o operador: `~/` 
-### Exemplo: 
+#### Exemplo: 
 
 ```dart
 main(
@@ -113,3 +113,22 @@ main(
 	print("O resto da divisão é $c");
 )
 ```
+
+### Resto de Divisão 
+
+Também chamado de **módulo** retorna o resto da divisão
+
+```dart
+main(
+	int a = 10
+	int b = 3
+	int c = a % b
+	
+	print("O resto da Divisão de $a % $b = $c");
+)
+```
+
+Modelo matemático de resto  de divisão é tudo aquilo que sobra em uma divisão
+
+![[Pasted image 20260623174400.png]]
+

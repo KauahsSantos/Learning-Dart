@@ -80,5 +80,17 @@ void main(List<String> args) {
 
   print("A parte inteira da divisão de $a5 ~/ $b5 = $c5");
 
+  print("");
+
+  print("Operador de Resto de Divisão");
+
+  int a6, b6, c6;
+
+  a6 = 10;
+  b6 = 3;
+  c6 = a6 % b6;
+
+  print("O resto da divisão entre $a6 % $b6 = $c6");
+
   
 }
