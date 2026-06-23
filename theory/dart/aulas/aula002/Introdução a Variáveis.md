@@ -1,0 +1,110 @@
+****
+#  → Variáveis em Dart
+
+No Flutter, as variáveis são usadas para armazenar valores. Existem três tipos de variáveis no Flutter sendo essas → **_locais, globais e de instância_**. As variáveis no flutter podem armazenar dados de diferentes tipos de instâncias, como números _strings, booleanos_ e muito mais.
+
+-  String → Variáveis que armazenam letras oi frases completas
+- Booleanos →  Variáveis com números  quebrados - 2.5, 3.009  etc.
+
+```dart
+var numero = 10;
+```
+
+# → Tipo de  Variáveis
+
+Para declararmos uma variável em dart temos que manter um padrão, sendo esse, inicializar ela com seu tipo, depois seu nome e seu valor.
+
+`tipo nome = valor `
+
+## → Tipos Numéricos
+
+Em dart temos algumas variáveis de tipos numéricos, sendo essas:
+
+- Int - Para números inteiros
+	- 1, 5, 100, 50,…..
+- double - Para números fracionados ou quebrados
+	- 1.3, 5.54, 5.023,….
+- num - É considerado genérico aceitando os dois tipos `int ou doube`
+
+### → Int | Números inteiros
+
+Esse é a variável int que só aceita números inteiros, ou seja, os que não são quebrados e que não possuem casas decimais. 
+
+```dart
+main(
+	print("Variáveis em Dart");
+	
+	int n1 = 10;
+	
+	print(n1);
+)
+```
+
+### →  Double | Números quebrados
+
+Esse é o tipo de váriavel que aceita apenas números decimais/quebrados, ou seja, 10.0, 12.1, 1.23 etc.
+
+```dart
+main(
+	print("Variáveis em Dart");
+	
+	double n2 = 20.1;
+	
+	print(n2);
+)
+```
+
+### → Num | Números Genéricos 
+
+Ele pode ser usado quando o valor da variável for variar, ou seja, uma hora ele é um tipo inteiro depois altera para número quebrado.
+
+```dart
+main(
+	num numero = 10;
+	numero = 10.5;
+)
+```
+
+## → Tipos de Texto
+
+Em dart temos variáveis que armazenam texto, sendo simples ou complexos, as mais usadas são  `String` para textos que nós mesmos decidimos e `booleano` para textos que o dart da como padrão, sendo _true / false_ 
+
+### String | Para textos completos
+
+Essa é a variável que nos permite adicionar textos ao sistema, sendo frases completas, letras ou apenas só palavras.
+
+```dart
+main(
+	String nome = "Kauã";
+	String cidade = "São Paulo";
+	String letra = "a";
+	
+	print(nome);
+	print(cidade);
+	print(letrar);
+)
+```
+
+#### Interpolação
+
+A interpolação é a junção de variáveis com textos ou variáveis com variáveis
+
+```dart
+main(
+	print("meu nome é $nome moro em $cidade e gosto da letra $letra");
+)
+```
+
+#### Métodos da String
+
+Os métodos são feitos para alterar a variável inicial e com isso temos um resultado diferente na variável final, ou seja, pedirmos determinado método nós teremos um resultado totalmente diferente de uma string, como o método `.length` que faz a contagem de quantos caracteres temos na quela frase, assim deixando ela “como uma int”.
+
+-  .length
+	- Faz a contagem de caracteres dentro da variável = `nome.length`
+- .toUpperCase
+	- Deixa a String com todos os caracteres em letras maiúsculas = `nome.toUpperCase`
+- .toLowerCase
+	- Deixa a String com todos os caracteres em letras minúsculas = `nome.toLowerCase`
+
+
+

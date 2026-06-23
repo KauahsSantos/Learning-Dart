@@ -62,9 +62,23 @@ void main(List<String> args) {
   int a4, b4;
   double c4;
 
-  a4 = 10;
+  a4 = 7;
   b4 = 2;
   c4 = a4 / b4;
 
   print("A divisão de $a4 / $b4 = $c4");
+
+  print("");
+
+  print("Parte Inteira da Divisão");
+
+  int a5, b5, c5;
+
+  a5 = 7;
+  b5 = 2;
+  c5 = a5 ~/ b5;
+
+  print("A parte inteira da divisão de $a5 ~/ $b5 = $c5");
+
+  
 }

@@ -102,7 +102,6 @@ main(
 ### Divisão Inteira
 
 Nos permite ter acesso apenas a parte inteira da divisão, para isto utilizamos o operador: `~/` 
-
 ### Exemplo: 
 
 ```dart
