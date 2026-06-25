@@ -90,7 +90,8 @@ void main(List<String> args) {
   b6 = 3;
   c6 = a6 % b6;
 
-  print("O resto da divisão entre $a6 % $b6 = $c6");
+  print("O resto da divisão entre $a6 % $b6 = $c6");  
 
+  
   
 }
