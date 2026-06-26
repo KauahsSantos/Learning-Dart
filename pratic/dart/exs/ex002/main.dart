@@ -1,7 +1,16 @@
 void main(List<String> args) {
-  print("Crie uma lista com 3 tecnologias que você quer aprender");
+  print("Verificar se o Número é par");
 
-  List<String> tec = ["Dart", "Flutter", "Java", "Swift"];
+  int n1 = 8;
+  int n2 = 2;
 
-  print("As tecnologias que eu quero aprender são: $tec");
+  int n3 = n1 % n2;
+
+  print(n3);
+
+  if (n3 == 0) {
+    print("É par");
+  } else {
+    print("Não é par");
+  };
 }

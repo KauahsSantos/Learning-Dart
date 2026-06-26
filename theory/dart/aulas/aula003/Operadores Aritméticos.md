@@ -132,3 +132,25 @@ Modelo matemático de resto  de divisão é tudo aquilo que sobra em uma divisã
 
 ![[Pasted image 20260623174400.png]]
 
+## Exemplo 
+
+Verificar se o número é par  ou impar
+
+```dart
+main(
+	print("Verificar se o Número é par");
+	
+	int n1 = 8;
+	int n2 = 2;
+	int n3 = n1 % n2;
+	
+	print(n3);
+	
+	if (n3 == 0) {
+		print("É par");
+	} else {
+		print("Não é par");
+	};
+)
+```
+
