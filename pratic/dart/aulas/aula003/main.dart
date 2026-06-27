@@ -90,8 +90,19 @@ void main(List<String> args) {
   b6 = 3;
   c6 = a6 % b6;
 
-  print("O resto da divisão entre $a6 % $b6 = $c6");  
+  print("O resto da divisão entre $a6 % $b6 = $c6");
 
-  
-  
+  print("");
+
+  print("Operador Incremento e Decremento");
+
+  int a7 = 10;
+  int b7 = 11;
+
+  // Pós Incremento -> Adiciona 1 ao valor, utiliza o valor primeiro e depois incrementa
+
+  print(a7++);
+  print(a7);
+
+  //
 }
