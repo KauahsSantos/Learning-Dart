@@ -130,7 +130,8 @@ main(
 
 Modelo matemático de resto  de divisão é tudo aquilo que sobra em uma divisão
 
-![[Pasted image 20260623174400.png]]
+
+![Resto de Divisão](restoDivisao.png)
 
 ## Exemplo 
 

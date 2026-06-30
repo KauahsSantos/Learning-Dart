@@ -104,5 +104,5 @@ void main(List<String> args) {
   print(a7++);
   print(a7);
 
-  //
+  // OBS o incremento é a mesma coisa só muda que faz o valor diminuir.
 }
