@@ -97,12 +97,19 @@ void main(List<String> args) {
   print("Operador Incremento e Decremento");
 
   int a7 = 10;
-  int b7 = 11;
+  int b7 = 20;
 
   // Pós Incremento -> Adiciona 1 ao valor, utiliza o valor primeiro e depois incrementa
 
   print(a7++);
   print(a7);
+  print(++a7);
+
+  print("");
+
+  print(b7--);
+  print(b7);
+  print(--b7);
 
   // OBS o incremento é a mesma coisa só muda que faz o valor diminuir.
 }
