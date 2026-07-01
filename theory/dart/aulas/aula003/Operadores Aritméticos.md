@@ -155,9 +155,9 @@ main(
 )
 ```
 
-## Operador Incremento
+## Operador Incremento e Decremento
 
-Nos permite incrementar +1 ao valor atual da variável `++` 
+Nos permite incrementar +1 ou decrementar -1 ao valor atual da variável `++ and --` 
 
 ```dart
 
