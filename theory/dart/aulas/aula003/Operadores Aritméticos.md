@@ -159,5 +159,15 @@ main(
 
 Nos permite incrementar +1 ao valor atual da variável `++` 
 
+```dart
 
+main(
+	int n1 = 10;
+	int n2 = 11
+	
+	
+	print(n1++);
+	print(a7);
+)
 
+```
