@@ -101,13 +101,13 @@ void main(List<String> args) {
 
   // Pós Incremento -> Adiciona 1 ao valor, utiliza o valor primeiro e depois incrementa
 
-  print(a7++);
+  print(a7++); // or a7 += 1
   print(a7);
-  print(++a7);
+  print(++a7); 
 
   print("");
 
-  print(b7--);
+  print(b7--); //or b7 -=1
   print(b7);
   print(--b7);
 
