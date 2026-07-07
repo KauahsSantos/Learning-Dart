@@ -69,7 +69,7 @@ O algoritmo apenas compara os valores, se um valor é maior ou menos que o outro
 
 # Estruturas Condicionais 
 
-IF → Bom existem algumas estruturas condicionais na programação, sendo a principal e mais utilizado o `if`. Sua função é executar o bloco de código apenas se a função for verdadeira. 
+**IF** → Bom existem algumas estruturas condicionais na programação, sendo a principal e mais utilizado o `if`. Sua função é executar o bloco de código apenas se a função for verdadeira. 
 
 ```dart	
 main(
@@ -79,6 +79,7 @@ main(
 )
 ```
 
+A palavre `if` - “SE” no português, seria como: _Se está condição for verdadeira…_ 
 Um exemplo bem simples é descobrir se uma determinada pessoa é maior de idade.
 
 ```dart
@@ -115,7 +116,7 @@ main(
 
 O bloco simplesmente não é executado pois a condição não é verdadeira.
 
-ELSE → Já se a condição tiver um caminho contrario do `if`, ou seja, o algoritmo tiver mais de uma opção, nós utilizamos `else`. Ele só será executado quando a primeira condição, `if` for falsa.
+**ELSE** → Já se a condição tiver um caminho contrario do `if`, ou seja, o algoritmo tiver mais de uma opção, nós utilizamos `else`. Ele só será executado quando a primeira condição, `if` for falsa.
 
 ```dart
 main(
@@ -140,5 +141,69 @@ Você tem 10 anos, é menor de idade
 > 2 - False
 > 3 - executar ELSE
 
+# Operadores Lógicos
 
+na programação tem alguns tipos de operadores lógicos, eles servem para nos ajudar a encurtar as condições em apenas uma linha de código. Em dart usamos os principais, sendo eles:
+
+- && → AND → E
+
+```dart
+main(
+	if (nome >= 18 && temCNH){
+		print("Você tem 18 anos e já pode dirigir");
+	}
+)
+```
+
+> [!abstract] Fluxograma
+> 1 - Idade maior que 18
+> 2 - E
+> 3 - Tem CNH
+> 
+
+No caso do `&&` as duas condições precisão ser verdadeiras, se alguma delas for falsa, o algoritmo já ira ignorar e pular para a próxima condição.
+
+
+- || → OR → OU
+
+```dart
+main(){
+	if (vip || colaborador){
+		print("Você é funcionário no geral da empresa");	
+	}
+}
+```
+
+No casso do `||` basta uma delas ser verdadeira que o algoritmo ira acessa-lá, mesmo uma das alternativas sendo falsa.
+
+- ! → NOT - NÃO
+
+Nesse caso a condição será false → `if (!estachovendo)` - Falso, o algoritmo entende que não esta chovendo .
+
+# Operador Ternário
+
+É uma forma que existem em dart para resumir o a função `if`, deixando ela mais simples e em apenas uma linha de código. Com o operador ternário nosso algoritmo fica bem mais legível e simples, e a depender do tipo do algoritmo é melhor usar um operador ternário do que uma estrutura `if/else` 
+
+Sintaxe → 
+
+Variável = Condição ? valor1 : valor2
+
+| Variável             | =          | Condição                          | ?       | Valor1  | :                                                                   | Valor2  |
+| -------------------- | ---------- | --------------------------------- | ------- | ------- | ------------------------------------------------------------------- | ------- |
+| Onde irá o Resultado | atribuição | “If” → Condição para if acontecer | Dacição | Valor 1 | Compara os valores - se caso o valor 1 for falso ele chama o valor2 | Valor 2 |
+
+```dart
+main(
+	int idade = 10;
+	
+	String result = idade >= 18 ? "Maior" : "Menor";
+	// String result = condicao ? valor1 : valor2
+)
+```
+
+```bash
+Menor
+```
+
+Uma observação → O primeiro valor do operador sempre deve ser verdadeiro e o segundo o false, ele serve de comparação com um `if-else` simples, sendo assim o algoritmo interpreta que o primeiro valor é o errado mesmo ela sendo a condição verdadeira, por que o que ele procura é a false pois, 10 é menor que 18.
 

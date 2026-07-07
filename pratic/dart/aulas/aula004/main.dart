@@ -3,6 +3,7 @@ void main(List<String> args) {
 
   int n1 = 15;
   int slr = 0;
+  String result;
 
   if (n1 <= 17 && slr == 0) {
     print("É menor de idade");
@@ -16,4 +17,12 @@ void main(List<String> args) {
   } else if (n1 >= 18 || slr > 7000) {
     print("Não sei sua idade mais tu recebe bem kkkk");
   }
+
+  // Operador ternário
+
+  print("\nOperador Ternário\n");
+
+  result = n1 >= 18 ? "Maior de Idade" : "Menor de Idade";
+
+  print(result);
 }
