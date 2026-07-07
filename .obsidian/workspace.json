@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c23fded05953e8be",
+        "id": "bf6f76f1e972bb94",
         "type": "tabs",
         "children": [
           {
-            "id": "67f4164b32df4a29",
+            "id": "3515677cef25af49",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -184,11 +184,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "67f4164b32df4a29",
+  "active": "3515677cef25af49",
   "lastOpenFiles": [
+    "Sem título.md",
+    "theory/dart/aulas/aula004/Introdução a Controle de Fluxo e Estruturas Condicionais.md",
     "Sem título.base",
     "theory/dart/aulas/aula003/Operadores Aritméticos.md",
-    "theory/dart/aulas/aula004/Introdução a Controle de Fluxo e Estruturas Condicionais.md",
     "theory/dart/aulas/aula004",
     "pratic/dart/aulas/aula004/main.dart",
     "pratic/dart/aulas/aula004",
