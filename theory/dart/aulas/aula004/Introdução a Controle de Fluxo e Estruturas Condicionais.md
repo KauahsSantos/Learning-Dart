@@ -207,3 +207,25 @@ Menor
 
 Uma observação → O primeiro valor do operador sempre deve ser verdadeiro e o segundo o false, ele serve de comparação com um `if-else` simples, sendo assim o algoritmo interpreta que o primeiro valor é o errado mesmo ela sendo a condição verdadeira, por que o que ele procura é a false pois, 10 é menor que 18.
 
+# Switch & Case
+
+Serve para compararmos valores específicos, sendo ele bem semelhante ao `if-else`. exemplo: 
+
+```dart
+main(
+	String dia = "Segunda";
+	
+	switch(dia){
+		case "Segunda":
+			print("Começo de semana");
+			break;
+		case "Sexta" :
+			print("Fim de Semana");
+			break;
+		default:
+			print("Outro dia");
+	}
+)
+```
+
+O break → 
