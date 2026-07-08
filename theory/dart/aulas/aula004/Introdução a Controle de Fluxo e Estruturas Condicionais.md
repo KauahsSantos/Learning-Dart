@@ -134,9 +134,8 @@ main(
 Você tem 10 anos, é menor de idade
 ```
 
-→ Fluxo do algoritmo
+Fluxo do algoritmo → 
 
-> [!abstract] Fluxograma
 > 1 - idade ≥ 18 ?
 > 2 - False
 > 3 - executar ELSE
@@ -155,11 +154,10 @@ main(
 )
 ```
 
-> [!abstract] Fluxograma
+Fluxograma → 
 > 1 - Idade maior que 18
 > 2 - E
 > 3 - Tem CNH
-> 
 
 No caso do `&&` as duas condições precisão ser verdadeiras, se alguma delas for falsa, o algoritmo já ira ignorar e pular para a próxima condição.
 
