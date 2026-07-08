@@ -25,4 +25,19 @@ void main(List<String> args) {
   result = n1 >= 18 ? "Maior de Idade" : "Menor de Idade";
 
   print(result);
+
+  print("\nSwitch Case\n");
+
+  String dia = "Sexta";
+
+  switch (dia) {
+    case "Segunda":
+      print("Começo de semana");
+      break;
+    case "Sexta":
+      print("Final de semana");
+      break;
+    default:
+      print("Qualquer outro dia");
+  }
 }
