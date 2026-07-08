@@ -56,14 +56,14 @@ main(
 
 O computador executa da seguinte maneira:
 
-> [!abstract] Fluxograma
-> 1 - Existe um IF?
-> 2 - Sim
-> 3 - Avalie a Condição
-> 4 - Idade ≤ 17? 
-> 5 - 18  ≤ 17
-> 6 -  false
-> 7 - executar o bloco else
+Fluxograma →
+1. - Existe um IF?
+2. - Sim
+3. - Avalie a Condição
+4. - Idade ≤ 17? 
+5. - 18  ≤ 17
+6. -  false
+7. - executar o bloco else
 
 O algoritmo apenas compara os valores, se um valor é maior ou menos que o outro.
 
@@ -136,10 +136,9 @@ Você tem 10 anos, é menor de idade
 
 Fluxo do algoritmo → 
 
-> 1 - idade ≥ 18 ?
-> 2 - False
-> 3 - executar ELSE
-
+1. - idade ≥ 18 ? 
+2.  - False 
+3.  - Executar ELSE
 # Operadores Lógicos
 
 na programação tem alguns tipos de operadores lógicos, eles servem para nos ajudar a encurtar as condições em apenas uma linha de código. Em dart usamos os principais, sendo eles:
@@ -155,9 +154,9 @@ main(
 ```
 
 Fluxograma → 
-> 1 - Idade maior que 18
-> 2 - E
-> 3 - Tem CNH
+1. - Idade maior que 18 
+2.  - E 
+3.  - Tem CNH
 
 No caso do `&&` as duas condições precisão ser verdadeiras, se alguma delas for falsa, o algoritmo já ira ignorar e pular para a próxima condição.
 
