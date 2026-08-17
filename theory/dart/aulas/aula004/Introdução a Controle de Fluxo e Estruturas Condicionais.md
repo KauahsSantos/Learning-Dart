@@ -187,7 +187,7 @@ Variável = Condição ? valor1 : valor2
 
 | Variável             | =          | Condição                          | ?       | Valor1  | :                                                                   | Valor2  |
 | -------------------- | ---------- | --------------------------------- | ------- | ------- | ------------------------------------------------------------------- | ------- |
-| Onde irá o Resultado | atribuição | “If” → Condição para if acontecer | Dacição | Valor 1 | Compara os valores - se caso o valor 1 for falso ele chama o valor2 | Valor 2 |
+| Onde irá o Resultado | atribuição | “If” → Condição para if acontecer | Decição | Valor 1 | Compara os valores - se caso o valor 1 for falso ele chama o valor2 | Valor 2 |
 
 ```dart
 main(
