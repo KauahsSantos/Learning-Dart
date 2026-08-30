@@ -12,14 +12,30 @@ void main(List<String> args) {
     print("O valor de i é: $i");
   }
 
-  print(i);
+  print("\n---------------------------------\n");
+
+  print("Descrevendo o laço de repetição for de forma decrescente");
+
+  for ( int d = 0; d >= -10; d--){
+    print("O valor de d é: $d");
+  }
+
+  print("\n---------------------------------\n");
+
+  print("Um for dentro de outro for");
+
+  for(int x =  0; x <= 5; x++){
+    for( int y = 0; y <=3; y++){
+      print("O valor de x é: $x e o valor de y é: $y");
+    }
+  }
 
   print("\n---------------------------------\n");
 
   print("Exemplo 2: Laço de repetição while");
 
   while (i <= 30) {
-    print(i);
+    print("O valor de i é: $i");
     i++;
   }
 
