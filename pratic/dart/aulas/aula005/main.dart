@@ -25,7 +25,7 @@ void main(List<String> args) {
   print("Um for dentro de outro for");
 
   for(int x =  0; x <= 5; x++){
-    for( int y = 0; y <=3; y++){
+    for( int y = 0; y <=3 ; y++){
       print("O valor de x é: $x e o valor de y é: $y");
     }
   }
