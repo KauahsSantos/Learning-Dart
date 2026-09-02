@@ -14,11 +14,7 @@ void main(List<String> args) {
   print("");
 
   print("Função com Parâmetos Posicionais Nomeados");
-  registroGeral("Kaua", "12/02/2007", 57453323878, salario: 3000);
-
-  print("");
-
-
+  registroGeral("Kaua", "12/02/2007", 5742345528, idd: 10);
 }
 
 numeros(int n1, int n2) {
@@ -26,12 +22,7 @@ numeros(int n1, int n2) {
   print("A soma de $n1 + $n2 = $result");
 }
 
-nomes( 
-  String nm1,  
-  String nm2, [
-  bool idd1 = false,
-  bool idd2 = false
-]) {
+nomes(String nm1, String nm2, [bool idd1 = false, bool idd2 = false]) {
   if (nm1 == "Kaua" && idd1) {
     int idade1 = 19;
     print("Meu nome e: $nm1 \nMinha idade e: $idade1");
@@ -70,4 +61,3 @@ registroGeral(
     );
   }
 }
-
