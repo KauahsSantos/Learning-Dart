@@ -6,8 +6,10 @@ void main(List<String> args) {
   login(
     mostrarNm1: true,
     nm1: "Eduarda",
+    idd1: 10,
     mostrarNm2: true,
     nm2: "Pedro",
+    idd2: 29
   );
 }
 
@@ -35,6 +37,7 @@ login({
   } else if (mostrarNm2) {
     if (mostrarNm2 && nm2 != null) {
       print("$nm2 - Login Ativo");
+      print("Sua idade e: $idd2");
     } else if (!mostrarNm2) {
       print("Falha ao Logar");
     }
