@@ -9,7 +9,7 @@ void main(List<String> args) {
 calcDps(List<int> dps) {
   int total = 0;
   for (int i = 0; i < dps.length; i++) {
-    total += dps[i];
+    total += dps[i] as int;
   }
 
   print("Minha despesa e: $total");
