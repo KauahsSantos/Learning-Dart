@@ -20,9 +20,9 @@ entradas() {
 
   for (i; i <= fontRenda; i++) {
     print("\nAdicione $i° fonte de renda");
-    int fr1 = int.parse(stdin.readLineSync()!);
+    int fr = int.parse(stdin.readLineSync()!);
 
-    listaRenda.add(fr1);
+    listaRenda.add(fr);
   }
 
   int totalEntradas = calcEntradas(listaRenda);
