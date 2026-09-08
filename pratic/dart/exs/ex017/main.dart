@@ -1,16 +1,16 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  toAddEntradas();
+  print("Sistema Financeiro\n");
 
-  print("");
+  int? totalEntradas = entradas();
+  int? totalSaidas = saidas();
+  int saldo = calcSaldo(totalEntradas, totalSaidas);
 
-  toAddSaidas();
-
-  
+  print("\nO saldo final e: $totalEntradas - $totalSaidas = $saldo");
 }
 
-toAddEntradas() {
+entradas() {
   int fontRenda;
   int i = 1;
   List<int> listaRenda = [];
@@ -19,25 +19,56 @@ toAddEntradas() {
   fontRenda = int.parse(stdin.readLineSync()!);
 
   for (i; i <= fontRenda; i++) {
-    print("Adicione $i° fonte de renda");
+    print("\nAdicione $i° fonte de renda");
     int fr1 = int.parse(stdin.readLineSync()!);
 
     listaRenda.add(fr1);
   }
+
+  int totalEntradas = calcEntradas(listaRenda);
+  print("\nA soma de todas entradas é: $totalEntradas");
+
+  return totalEntradas;
 }
 
-toAddSaidas() {
+int calcEntradas(List<int> listaEntradas) {
+  int totalEntradas = 0;
+  for (int i = 0; i < listaEntradas.length; i++) {
+    totalEntradas += listaEntradas[i] as int;
+  }
+
+  return totalEntradas;
+}
+
+saidas() {
   int saidas;
   int i = 1;
   List<int> listaDespesas = [];
 
-  print("Quantas despesas voce tem?");
-  saidas = int.parse(stdin.readLineSync()!);
+  print("\nQuantas despesas voce tem?");
+  saidas = int.parse(stdin.readLineSync()! + "\n");
 
-  for (i; i < saidas; i++) {
-    print("Adicine a $i° despesa");
+  for (i; i <= saidas; i++) {
+    print("\nAdicine a $i° despesa");
     int dps1 = int.parse(stdin.readLineSync()!);
 
     listaDespesas.add(dps1);
   }
+
+  int totalSaidas = calcSaidas(listaDespesas);
+  print("\nA soma das despesas e: $totalSaidas");
+
+  return totalSaidas;
+}
+
+int calcSaidas(List<int> ListraSaidas) {
+  int totalSaidas = 0;
+  for (int i = 0; i < ListraSaidas.length; i++) {
+    totalSaidas += ListraSaidas[i] as int;
+  }
+  return totalSaidas;
+}
+
+int calcSaldo(calcEntradas, calcSaidas) {
+  return calcEntradas - calcSaidas;
 }
