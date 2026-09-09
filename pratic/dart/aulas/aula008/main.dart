@@ -31,14 +31,14 @@ void main(List<String> args) {
 
   print("");
 
-  // Para verifiar se tem um determinado numero
+  // Para verificar se tem um determinado conteudo
   print(nomes.contains("Mariano"));
   // Para encontrar qual é o index de um determinado valor
   print(nomes.indexOf("Mariano"));
 
   print("");
 
-  //Remove itens da lista
+  //Remove itens da lista`
   nomes.remove("Mariano"); // Remove pelo nome/valor do item
   print(nomes);
 
