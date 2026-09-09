@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  print("Listas e Maps");
+  print("Listas");
 
   //Lista Simples
 
