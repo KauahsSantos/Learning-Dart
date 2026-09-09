@@ -38,7 +38,7 @@ void main(List<String> args) {
 
   print("");
 
-  //Remove itens da lista`
+  //Remove itens da lista
   nomes.remove("Mariano"); // Remove pelo nome/valor do item
   print(nomes);
 
