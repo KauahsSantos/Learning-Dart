@@ -41,7 +41,7 @@ void main(List<String> args) {
 int calcEntradas(List<int> entradas) {
   int totalEntrada = 0;
   for (int i = 0; i < entradas.length; i++) {
-    totalEntrada += entradas[i] as int;
+    totalEntrada += entradas[i];
   }
   return totalEntrada;
 }
@@ -49,7 +49,7 @@ int calcEntradas(List<int> entradas) {
 int calcDespesas(List<int> despesas) {
   int totalDespesa = 0;
   for (int i = 0; i < despesas.length; i++) {
-    totalDespesa += despesas[i] as int;
+    totalDespesa += despesas[i];
   }
   return totalDespesa;
 }

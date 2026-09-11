@@ -34,7 +34,7 @@ entradas() {
 int calcEntradas(List<int> listaEntradas) {
   int totalEntradas = 0;
   for (int i = 0; i < listaEntradas.length; i++) {
-    totalEntradas += listaEntradas[i] as int;
+    totalEntradas += listaEntradas[i];
   }
 
   return totalEntradas;
@@ -64,7 +64,7 @@ saidas() {
 int calcSaidas(List<int> ListraSaidas) {
   int totalSaidas = 0;
   for (int i = 0; i < ListraSaidas.length; i++) {
-    totalSaidas += ListraSaidas[i] as int;
+    totalSaidas += ListraSaidas[i];
   }
   return totalSaidas;
 }
