@@ -2,8 +2,8 @@ void main(List<String> args) {
   print("Interação com Listas - 02\n");
 
   //List.filled -> Faz com que possamos repetir o mesmo número varias vezes dentro de uma só lista
-  List<int> repeatFive = List.filled(2, 2);
-  print(repeatFive);
+  List<int> repeatList = List.filled(2, 2);
+  print(repeatList);
 
   print("");
 
