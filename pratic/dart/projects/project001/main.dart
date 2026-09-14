@@ -4,7 +4,7 @@ import 'dart:io';
 
 Map<String, String> listaContato = {};
 int? input1;
-var nome, number;
+dynamic nome, number;
 
 void main(List<String> args) {
   print("Lista De Contatos\n");
@@ -39,7 +39,7 @@ buscarContato() {
     print("Nao, $n2 nao existe na lista");
   }
 
-  sleep(Duration(milliseconds: 700));
+  sleep(Duration(seconds: 1));
   limparTerminal();
 }
 
@@ -66,23 +66,19 @@ removeContato() {
 // Refazer e melhorar updateContato -> Ainda nao esta funcionando como desejado
 
 updateContato() {
-  String nome1, newNm, newNum;
   listaContato.forEach(((key, value) => print("$key - $value")));
 
-  print("Qual Contato voce que atualizar");
-  nome1 = stdin.readLineSync()!;
+  print("Digite nome da lista que sera alterado");
+  String? newName = stdin.readLineSync()!;
 
-  nome1 = nome;
+  print("Digite o numero desse novo contato");
+  String? newNumber = stdin.readLineSync()!;
 
-  print("Digite o novo nome desse contato:");
-  newNm = stdin.readLineSync()!;
+  listaContato.removeWhere(((key, value) => key.startsWith(nome)));
 
-  print("");
+  listaContato[newName] = newNumber;
 
-  print("Digite o novo numero");
-  newNum = stdin.readLineSync()!;
-
-  nome = newNm;
+  listaContato.forEach(((key, value) => print("$key - $value")));
 
   sleep(Duration(milliseconds: 500));
   limparTerminal();
