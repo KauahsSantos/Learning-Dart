@@ -39,4 +39,16 @@ void main(List<String> args) {
   nomes[nota] = bigT;
 
   print(nomes);
+
+  print("");
+
+  var despesas = {"Mercado": 500, "Apartamento": 250, "Cartao": 800};
+
+  nomes.update(1, (value) => "Kauazito");
+  nomes.update(3, (value) => "Pietro".toUpperCase());
+  nomes.update(2, (value) => "34");
+
+  despesas.update("Mercado", ((value) => value + 500));
+
+  print(despesas);
 }
