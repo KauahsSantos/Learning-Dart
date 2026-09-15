@@ -59,7 +59,7 @@ removeContato() {
 
   print("");
 
-  sleep(Duration(milliseconds: 1));
+  sleep(Duration(milliseconds: 2));
   limparTerminal();
 }
 
