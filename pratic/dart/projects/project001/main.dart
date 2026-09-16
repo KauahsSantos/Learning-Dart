@@ -1,5 +1,3 @@
-//TODO- Refazer e melhorar updateContato() -> Ainda nao esta funcionando como desejo
-
 import 'dart:io';
 
 Map<String, String> listaContato = {};
@@ -33,13 +31,13 @@ buscarContato() {
   n2 = stdin.readLineSync()!;
 
   if (listaContato.containsKey(n2)) {
-    print("\nSim, $n2 Existe na lista");
+    print("\nSim, $n2 Existe na lista\n");
     listaContato.forEach(((key, value) => print("$key - $value")));
   } else if (!listaContato.containsKey(n2)) {
     print("Nao, $n2 nao existe na lista");
   }
 
-  sleep(Duration(seconds: 1));
+  sleep(Duration(seconds: 3));
   limparTerminal();
 }
 
@@ -63,24 +61,22 @@ removeContato() {
   limparTerminal();
 }
 
-// Refazer e melhorar updateContato -> Ainda nao esta funcionando como desejado
-
 updateContato() {
   listaContato.forEach(((key, value) => print("$key - $value")));
 
-  print("Digite nome da lista que sera alterado");
-  String? newName = stdin.readLineSync()!;
+  print("O numero a ser atualizado e o de:");
+  nome = stdin.readLineSync()!;
 
   print("Digite o numero desse novo contato");
-  String? newNumber = stdin.readLineSync()!;
+  String newNumber = stdin.readLineSync()!;
 
-  listaContato.removeWhere(((key, value) => key.startsWith(nome)));
+  listaContato.update(nome, ((number) => newNumber));
 
-  listaContato[newName] = newNumber;
+  print("");
 
   listaContato.forEach(((key, value) => print("$key - $value")));
 
-  sleep(Duration(milliseconds: 500));
+  sleep(Duration(seconds: 2));
   limparTerminal();
 }
 
