@@ -1,0 +1,37 @@
+{
+    "nome" : "Kaua",
+    "sobrenome" : "Santos",
+    "idade" : 10,
+    "casado" : true,
+    "altura" : 1.72,
+    "linguagens" : [
+        {
+            "back-and" : [
+                "dart",
+                "java",
+                "c",
+                "swift",
+                "kotlin"
+            ],
+            "front-end" : [
+                "HTML",
+                "CSS",
+                "JS",
+                "Flutter"
+            ],
+            "Mobile" : [
+                "Flutter",
+                "Reat Native",
+                "ExpoJs",
+                "Swift"
+            ]             
+        }
+    ],
+    "endereço" : {
+        "pais" : "Brasil",
+        "cidade" : "Sao Paulo",
+        "estado" : "Sp",
+        "cep" : "04452-000",
+        "numero" : 1559
+    }
+}
