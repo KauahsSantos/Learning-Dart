@@ -5,6 +5,7 @@
     "casado" : true,
     "altura" : 1.72,
     "linguagens" : [
+        "Java",
         {
             "back-and" : [
                 "dart",
@@ -24,7 +25,8 @@
                 "Reat Native",
                 "ExpoJs",
                 "Swift"
-            ]             
+            ],
+            "Python" : "Linguagem de Dev Coda FOFO"           
         }
     ],
     "endereço" : {
