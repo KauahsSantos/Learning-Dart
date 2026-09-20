@@ -1,6 +1,7 @@
 {
     "nome" : "Kaua",
-    "idade" : 19,
+    "idade" : 19.0,
     "trabalha" : true,
-    "altura" : 1.72
+    "altura" : 1.72,
+    "Linguagem favorita" : "Java"
 }
