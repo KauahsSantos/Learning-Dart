@@ -1,0 +1,14 @@
+[
+    {
+        "nome" : "Note",
+        "preco" : 1200
+    },
+    {
+        "nome" : "Mouse",
+        "preco" : 120
+    },
+    {
+        "nome" : "Teclado",
+        "preco" : 250
+    }
+]
