@@ -37,7 +37,7 @@ void main(List<String> args) {
   print("Qual o valor atual da $conta1?");
   n2 = double.parse(stdin.readLineSync()!);
 
-  contas.update(conta1!, ((val1) => n2!));
+  contas.update(conta1, ((val1) => n2!));
 
   print("");
 
