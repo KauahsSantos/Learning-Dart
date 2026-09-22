@@ -3,7 +3,8 @@ enum statusPagamento { pago, pendente, extorno }
 void main(List<String> args) {
   print("Introducao a Enuns");
 
-  statusPagamento status = statusPagamento.extorno;
+  statusPagamento status = statusPagamento.pendente;
+  print(status);
 
   switch (status) {
     case statusPagamento.pago:
@@ -13,4 +14,6 @@ void main(List<String> args) {
     case statusPagamento.extorno:
       print("Valor extornado");
   }
+
+  print(statusPagamento.extorno.index);
 }
