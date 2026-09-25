@@ -4,5 +4,5 @@
 - [ ] Como gerenciar pacotes com PUB -> Bibliotecas não padrão
 - [ ] Ex BigT Discord -> Class/objects/atributos
 - [ ] Mais exs de Json
-- [ ] Mais exs de Enum
+- [x] Mais exs de Enum
 - [ ] Exs de operação em Cascata
