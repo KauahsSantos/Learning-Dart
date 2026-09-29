@@ -9,6 +9,6 @@ class User {
   User(this.nome, this.idade, this.email, this.cargo);
 
   String getEmail() {
-    return email!;
+    return email;
   }
 }
