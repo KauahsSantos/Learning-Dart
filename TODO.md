@@ -7,3 +7,5 @@
 - [x] Mais exs de Enum
 - [ ] Exs de operação em Cascata
 - [ ] Desafio FizzBuzz - Gbziin
+- [ ] Estudar mais sobre Classs e POO no geral
+- [ ] Exs de POO
