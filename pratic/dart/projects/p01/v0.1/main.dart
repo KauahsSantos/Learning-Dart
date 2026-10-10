@@ -122,6 +122,8 @@ menu() {
   print("Escolha uma opção:");
   input1 = int.parse(stdin.readLineSync()!);
 
+  print("");
+
   limparTerminal();
 }
 
