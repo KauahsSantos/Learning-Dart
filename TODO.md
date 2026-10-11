@@ -1,5 +1,8 @@
 ## Lista de Afazeres pendentes.
 
+- [ ] Git e Github
+- [ ] Versionamento senântico
+- [ ] Commits convencionais
 - [ ] Responder issues -> PRIORIDADE 01
 - [ ] Desafio FizzBuzz - Gbziin -> PRIORIDADE 02
 - [ ] Tratamendo de caso no projeto002 - linha 56 funcao dados()
