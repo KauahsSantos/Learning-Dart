@@ -1,4 +1,5 @@
 import 'dart:io';
+
 import 'Lista.dart';
 
 void main(List<String> args) {
@@ -34,11 +35,12 @@ void main(List<String> args) {
         print("\nBuscar contato\n");
         list.buscarContato();
         break;
+      case 6:
+        print("Saindo...");
+        sleep(Duration(seconds: 1));
+        stdout.write('\x1B[2J\x1B[0;0H');
+      default:
+        print("Não é possível executar essa opção");
     }
-
-    print("Saindo...");
-
-    sleep(Duration(seconds: 1));
-    stdout.write('\x1B[2J\x1B[0;0H');
   }
 }
