@@ -1,12 +1,12 @@
 ## Lista de Afazeres pendentes.
 
-- [ ] Git e Github
 - [ ] Versionamento senântico
 - [ ] Commits convencionais
-- [ ] Responder issues -> PRIORIDADE 01
+- [-] Responder issues -> PRIORIDADE 01
 - [ ] Desafio FizzBuzz - Gbziin -> PRIORIDADE 02
 - [ ] Tratamendo de caso no projeto002 - linha 56 funcao dados()
 - [-] Ex BigT Discord -> Class/objects/atributos
+- [x] Git e Github
 - [x] Mais exs de Json
 - [x] Mais exs de Enum
 - [x] Estudar mais sobre Classs e POO no geral
