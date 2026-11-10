@@ -1,6 +1,6 @@
 import 'dart:io';
 
-class Lista {
+class lista {
   String? nome, num;
   Map<String, String> listaContatos = {};
 
@@ -13,7 +13,7 @@ class Lista {
     print("6 | Sair\n");
   }
 
-  addContato() {
+  void addContato() {
     print("Digite o Nome");
     nome = stdin.readLineSync()!;
 
@@ -32,30 +32,38 @@ class Lista {
     clear();
   }
 
-  removeContato() {
+  void removeContato() {
     printList();
 
     print("Qual o contato qu voce que remover");
     String? rm = stdin.readLineSync()!;
 
-    rm = listaContatos.remove(rm);
+    listaContatos.containsKey(rm);
 
-    print("$rm Removido da lisda dos seus contatos\n");
+    if (listaContatos.containsKey(rm) == true) {
+      print("$rm existe na lista");
 
-    printList();
+      listaContatos.remove(rm);
+
+      print("$rm Removido da lisda dos seus contatos\n");
+
+      printList();
+    } else {
+      print("$rm nao existe na lista");
+    }
 
     duration();
     clear();
   }
 
-  listContato() {
+  void listContato() {
     printList();
 
     sleep(Duration(seconds: 2));
     clear();
   }
 
-  updateContato() {
+  void updateContato() {
     printList();
 
     print("\nQual contato voce quer atualizar?");
@@ -74,7 +82,7 @@ class Lista {
     clear();
   }
 
-  buscarContato() {
+  void buscarContato() {
     print("Digite o nome do contato que voce que buscar:");
     nome = stdin.readLineSync()!;
 
@@ -92,15 +100,15 @@ class Lista {
     clear();
   }
 
-  clear() {
+  void clear() {
     stdout.write('\x1B[2J\x1B[0;0H');
   }
 
   duration() {
-    sleep(Duration(milliseconds: 790));
+    sleep(Duration(milliseconds: 1000));
   }
 
-  printList() {
+  void printList() {
     listaContatos.forEach(((key, value) => print("$key | $value")));
   }
 }
