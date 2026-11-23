@@ -46,3 +46,4 @@ void main(List<String> args) {
   print("${user1.nome} voce tem ${user1.idade} anos de idade. \nVc trabalha? $trampa");
   print("${user2.nome} voce tem ${user2.idade} anos de idade. \nVc trabalha? $trampa2");
 }
+  
